@@ -1,8 +1,8 @@
 from django.urls import path
 from django.http import HttpResponse
+from .views import index
 
-def index(request):
-    return HttpResponse("""<h1> Hello I Ohm eiei </h1>""")
+
 
 urlpatterns=[
     path('',index)
