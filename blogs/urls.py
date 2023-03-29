@@ -2,7 +2,7 @@ from django.urls import path
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("<h1> Hello I Ohm </h1>")
+    return HttpResponse("""<h1> Hello I Ohm eiei </h1>""")
 
 urlpatterns=[
     path('',index)
